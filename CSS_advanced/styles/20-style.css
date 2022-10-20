@@ -162,10 +162,10 @@ ul.row {
 	list-style: none;
 }
 
-row::before {
+.row::after {
 	content: '';
-	display: grid;
-	
+	display: table;
+	float: none;
 }
 
 .col-1-3 {

@@ -291,12 +291,9 @@ h1, h2, h3, h4, h5, h6 {
 	overflow: hidden;
 }
 
-.card-work .card-image {
-	transform: scale(1.2);
-}
-
 .card-work:hover .card-image {
-	transition: all var(–transition-duration) var(transition-cubic-bezier);
+	transform: scale(1.2);
+	transition: all var(–-transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-image img {
